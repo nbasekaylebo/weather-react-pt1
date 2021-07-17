@@ -44,7 +44,7 @@ function App() {
                   <div className="card">
                     <div className="card-body">
                       <div className="overview">
-                        <h1 id="city">.</h1>
+                        <h1 id="city">London</h1>
                         <ul>
                           <li>
                             <span id="date"></span>
@@ -56,7 +56,7 @@ function App() {
                         <div className="col-6">
                           <div className="clearfix weather-temperature">
                             <div className="float-left">
-                              <strong id="temperature"></strong>
+                              <strong id="temperature">25</strong>
                               <span className="units"> °C</span>
                             </div>
                           </div>
@@ -64,10 +64,10 @@ function App() {
                         <div className="col-6">
                           <ul>
                             <li>
-                              Humidity: <span id="humidity"></span>%
+                              Humidity: <span id="humidity">0</span>%
                             </li>
                             <li>
-                              Wind: <span id="wind"></span> km/h
+                              Wind: <span id="wind">3</span> km/h
                             </li>
                           </ul>
                         </div>
@@ -88,17 +88,17 @@ function App() {
         </div>
       </div>
       <footer>
-        Open-source code on
+        Open-source code on{" "}
         <a
           href="https://github.com/nbasekaylebo/weather-react-pt1"
           target="_blank"
           rel="noreferrer"
         >
           Github
-        </a>
+        </a>{" "}
         by Nastassja Basekay and hosted on
         <a
-          href="https://app.netlify.com/sites/agitated-jennings-527056"
+          href="https://agitated-jennings-527056.netlify.app/"
           target="_blank"
           rel="noreferrer"
         >
