@@ -1,38 +1,126 @@
-.App {
+body {
+  font-family: "Inter", sans-serif;
+}
+
+div .background {
+  background-repeat: no-repeat;
+  max-width: 668px;
+  padding: 0;
+  border-radius: 4px;
+}
+
+h1 {
+  color: #284d63;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  color: #284d63;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+footer {
+  font-family: "Inter", sans-serif;
   text-align: center;
+  font-size: 10px;
+  font-weight: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.weather-app-wrapper {
+  max-width: 668px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.weather-app {
+  padding: 20px;
+  max-width: 668px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.card {
+  border: none;
+  opacity: 0.6;
 }
 
-.App-link {
-  color: #61dafb;
+.overview {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todays-icon {
+  margin-right: 5px;
+  height: 250px;
+  width: 300px;
+}
+
+.weather-temperature strong {
+  color: #284d63;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature {
+  color: #284d63;
+  text-decoration: none;
+}
+
+.mini-card {
+  padding-bottom: 20px;
+  margin: 50px 0px 50px 0px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  color: #050607;
+  opacity: 0.7;
+}
+
+.weather-forecast-temp-min {
+  color: #000;
+  opacity: 0.7;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.btn {
+  color: #ffffff;
+  border-color: #7a97b4;
+}
+
+.btn:hover {
+  background: #7a97b4;
+  color: #ffffff;
+  border-color: #7a97b4;
 }
