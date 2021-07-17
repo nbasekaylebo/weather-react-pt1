@@ -44,7 +44,7 @@ function App() {
                   <div className="card">
                     <div className="card-body">
                       <div className="overview">
-                        <h1 id="city"></h1>
+                        <h1 id="city">.</h1>
                         <ul>
                           <li>
                             <span id="date"></span>
