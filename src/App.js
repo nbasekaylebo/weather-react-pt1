@@ -88,14 +88,24 @@ function App() {
         </div>
       </div>
       <footer>
+        Open-source code on
         <a
-          href="https://github.com/nbasekaylebo/Weather-2.0"
+          href="https://github.com/nbasekaylebo/weather-react-pt1"
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code
+          Github
         </a>
-        by Nastassja Basekay Wa Basekay.
+        by Nastassja Basekay and hosted on
+        <a
+          href="https://app.netlify.com/sites/agitated-jennings-527056"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Netlify
+        </a>
+        .
       </footer>
     </div>
   );
